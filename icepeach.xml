@@ -23,8 +23,26 @@
                   </block>
                 </value>
                 <next>
-                  <block type="oled_drawtext" id="104">
-                    <field name="TEXT">im an amazing hacker</field>
+                  <block type="oled_cleardisplay" id="129">
+                    <next>
+                      <block type="oled_setcursor" id="144" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="157">
+                            <field name="NUM">10</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="math_number" id="164">
+                            <field name="NUM">10</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_drawtext" id="104">
+                            <field name="TEXT">idfwu</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
