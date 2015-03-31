@@ -39,6 +39,20 @@
                         <next>
                           <block type="oled_drawtext" id="104">
                             <field name="TEXT"></field>
+                            <next>
+                              <block type="robot_delay" id="197" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="204">
+                                    <field name="NUM">5000</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="multimedia_displaybmp" id="255">
+                                    <field name="BMP"></field>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
                           </block>
                         </next>
                       </block>
