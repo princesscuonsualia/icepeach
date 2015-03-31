@@ -1,57 +1,57 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="281" x="476" y="84">
+  <block type="movement_forward" id="1" x="476" y="84">
     <next>
-      <block type="robot_delay" id="289" inline="true">
+      <block type="robot_delay" id="2" inline="true">
         <value name="DELAY">
-          <block type="math_number" id="296">
+          <block type="math_number" id="3">
             <field name="NUM">750</field>
           </block>
         </value>
         <next>
-          <block type="oled_cleardisplay" id="9">
+          <block type="oled_cleardisplay" id="4">
             <next>
-              <block type="oled_setcursor" id="18" inline="true">
+              <block type="oled_setcursor" id="5" inline="true">
                 <value name="STARTX">
-                  <block type="math_number" id="25">
+                  <block type="math_number" id="6">
                     <field name="NUM">10</field>
                   </block>
                 </value>
                 <value name="STARTY">
-                  <block type="math_number" id="32">
+                  <block type="math_number" id="7">
                     <field name="NUM">10</field>
                   </block>
                 </value>
                 <next>
-                  <block type="oled_drawtext" id="41">
+                  <block type="oled_drawtext" id="8">
                     <field name="TEXT">ba bam</field>
                     <next>
-                      <block type="robot_delay" id="64" inline="true">
+                      <block type="robot_delay" id="9" inline="true">
                         <value name="DELAY">
-                          <block type="math_number" id="71">
+                          <block type="math_number" id="10">
                             <field name="NUM">5000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="oled_cleardisplay" id="129">
+                          <block type="oled_cleardisplay" id="11">
                             <next>
-                              <block type="oled_setcursor" id="144" inline="true">
+                              <block type="oled_setcursor" id="12" inline="true">
                                 <value name="STARTX">
-                                  <block type="math_number" id="157">
+                                  <block type="math_number" id="13">
                                     <field name="NUM">10</field>
                                   </block>
                                 </value>
                                 <value name="STARTY">
-                                  <block type="math_number" id="164">
+                                  <block type="math_number" id="14">
                                     <field name="NUM">10</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="oled_drawtext" id="104">
+                                  <block type="oled_drawtext" id="15">
                                     <field name="TEXT">got ya</field>
                                     <next>
-                                      <block type="robot_delay" id="197" inline="true">
+                                      <block type="robot_delay" id="16" inline="true">
                                         <value name="DELAY">
-                                          <block type="math_number" id="204">
+                                          <block type="math_number" id="17">
                                             <field name="NUM">5000</field>
                                           </block>
                                         </value>
