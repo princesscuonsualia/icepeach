@@ -55,11 +55,6 @@
                                             <field name="NUM">5000</field>
                                           </block>
                                         </value>
-                                        <next>
-                                          <block type="multimedia_displaybmp" id="255">
-                                            <field name="BMP">http://www.quirkbooks.com/sites/default/files/editor_uploads/original/pig_0.jpg</field>
-                                          </block>
-                                        </next>
                                       </block>
                                     </next>
                                   </block>
