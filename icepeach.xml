@@ -7,59 +7,61 @@
             <field name="NUM">750</field>
           </block>
         </value>
-      </block>
-    </next>
-  </block>
-  <block type="oled_cleardisplay" id="9" x="472" y="144">
-    <next>
-      <block type="oled_setcursor" id="18" inline="true">
-        <value name="STARTX">
-          <block type="math_number" id="25">
-            <field name="NUM">10</field>
-          </block>
-        </value>
-        <value name="STARTY">
-          <block type="math_number" id="32">
-            <field name="NUM">10</field>
-          </block>
-        </value>
         <next>
-          <block type="oled_drawtext" id="41">
-            <field name="TEXT">ba bam</field>
+          <block type="oled_cleardisplay" id="9">
             <next>
-              <block type="robot_delay" id="64" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="71">
-                    <field name="NUM">5000</field>
+              <block type="oled_setcursor" id="18" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="25">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="32">
+                    <field name="NUM">10</field>
                   </block>
                 </value>
                 <next>
-                  <block type="oled_cleardisplay" id="129">
+                  <block type="oled_drawtext" id="41">
+                    <field name="TEXT">ba bam</field>
                     <next>
-                      <block type="oled_setcursor" id="144" inline="true">
-                        <value name="STARTX">
-                          <block type="math_number" id="157">
-                            <field name="NUM">10</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="math_number" id="164">
-                            <field name="NUM">10</field>
+                      <block type="robot_delay" id="64" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="71">
+                            <field name="NUM">5000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="oled_drawtext" id="104">
-                            <field name="TEXT">got ya</field>
+                          <block type="oled_cleardisplay" id="129">
                             <next>
-                              <block type="robot_delay" id="197" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="204">
-                                    <field name="NUM">5000</field>
+                              <block type="oled_setcursor" id="144" inline="true">
+                                <value name="STARTX">
+                                  <block type="math_number" id="157">
+                                    <field name="NUM">10</field>
+                                  </block>
+                                </value>
+                                <value name="STARTY">
+                                  <block type="math_number" id="164">
+                                    <field name="NUM">10</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="multimedia_displaybmp" id="255">
-                                    <field name="BMP">http://www.quirkbooks.com/sites/default/files/editor_uploads/original/pig_0.jpg</field>
+                                  <block type="oled_drawtext" id="104">
+                                    <field name="TEXT">got ya</field>
+                                    <next>
+                                      <block type="robot_delay" id="197" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="204">
+                                            <field name="NUM">5000</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="multimedia_displaybmp" id="255">
+                                            <field name="BMP">http://www.quirkbooks.com/sites/default/files/editor_uploads/original/pig_0.jpg</field>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
