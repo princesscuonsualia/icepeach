@@ -38,7 +38,7 @@
                         </value>
                         <next>
                           <block type="oled_drawtext" id="104">
-                            <field name="TEXT"></field>
+                            <field name="TEXT">got ya</field>
                             <next>
                               <block type="robot_delay" id="197" inline="true">
                                 <value name="DELAY">
@@ -48,7 +48,7 @@
                                 </value>
                                 <next>
                                   <block type="multimedia_displaybmp" id="255">
-                                    <field name="BMP"></field>
+                                    <field name="BMP">http://www.quirkbooks.com/sites/default/files/editor_uploads/original/pig_0.jpg</field>
                                   </block>
                                 </next>
                               </block>
